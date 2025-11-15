@@ -1,0 +1,151 @@
+ul {
+  list-style: none; /* тоже убирает маркеры */
+}
+
+
+/*Button*/
+.buttons button {
+  background-color:rgb(196, 187, 187) ;
+}
+/*footer*/
+.footer a{
+   color: #ffffff52;
+    text-decoration: none;
+}
+
+  .footer-title .web {
+  color: #1b7ff2; 
+   text-decoration: none;
+}
+
+.footer-title .studio {
+  color: black; 
+   text-decoration: none;
+  }
+
+.header-item {
+  color: #212121;
+}
+
+.WebStudio .web {
+  color: #1b7ff2;
+   text-decoration: none;
+}
+.WebStudio .studio {
+  color: black;
+   text-decoration: none;
+}
+.footer {
+      background-color: #2f2f2f;
+  color: #ffffff;
+   text-decoration: none;
+}
+.footer h2 {
+   text-decoration: none;
+  color: #027be4;
+}
+.hero-more:active {
+  background-color: #2580ff;
+}
+ 
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.header-page {
+  color: #212121;
+}
+.header-page:hover {
+color: #2580ff;
+}
+
+
+/*Roboto Regular*/
+
+.footer-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: #fff;
+ text-decoration: none;
+}
+
+.footer-page {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.hero-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*Roboto Medium*/
+.hero-item {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+
+.header-item {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.header-page {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+
+
+/*Roboto Bold*/ 
+.hero-subtitle {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 200%;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+/*Roboto Black*/
+.WebStudio {
+ font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+}
+.footer-title {
+  font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+}
+
+.header-page {
+  font-style: normal;
+}
+
+.footer-page {
+  font-style: normal;
+}

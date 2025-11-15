@@ -1,0 +1,171 @@
+/*container*/
+
+
+
+
+
+/*дізайни*/
+.firstSection {
+  background-color: #2F303A;
+}
+
+.firstSection-title {
+  color: #FFFFFF;
+}
+
+.firstSection-more {
+  background-color: #1B7FF2;
+  color: #FFFFFF;
+}
+
+.footer-title .studio {
+  color: black; 
+}
+
+.header-page:hover {
+    color: #1b7ff2;
+}
+
+.WebStudio .web {
+  color: #1b7ff2;
+}
+.WebStudio .studio {
+  color: black;
+}
+/*footer*/
+
+.footer a{
+  color: #275dd1;
+}
+.footer h2 {
+   color: #ffffff52;
+}
+.footer {
+      background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+
+/*Roboto Regular*/
+.footer-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: #fff;
+}
+
+.footer-page {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.team-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #757575;
+}
+
+.secondSection-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+
+/*Roboto Medium*/
+.team-subtitle {
+  font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+
+.header-page {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+/*Roboto Bold*/
+.team-title  {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+.thirdSection-title {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+.secondSection-title {
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+  
+.firstSection-more {
+  font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.06em;
+text-align: center;
+}
+
+/*Raleway Bold*/
+.footer-title {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+}
+.header-pages {
+  font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+color: #2196f3;
+}
+
+
+/*Roboto Black*/
+.firstSection-title {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 136%;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+}
