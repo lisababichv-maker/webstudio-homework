@@ -137,3 +137,18 @@ letter-spacing: 0.03em;
 .footer-page {
   font-style: normal;
 }
+
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.hero {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.footer {
+  padding-top: 52px;
+  padding-bottom: 60px;
+}
