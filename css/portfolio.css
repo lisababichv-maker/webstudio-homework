@@ -1,21 +1,94 @@
+/*container*/
+.WebStudio {
+  margin-left: 215px;
+}
 
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-items: center;
+  gap: 50px;
+}
 
+.header-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 93px;
+  gap: 50px;
+}
+
+.header-adress {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-left: 334px;
+  margin-right: 215px;
+  margin-left: auto;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.hero-more {
+  display: block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+   font-weight: 400;
+  font-size: 16px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.hero-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 96px;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
+.footer .container {
+  margin-left: 215px;
+  gap: 9px;
+}
+
+.footer-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+}
 /*Button*/
 .buttons button {
-  background-color:rgb(196, 187, 187) ;
+  background-color: #f5f4fa;
 }
 /*footer*/
-.footer a{
-   color: #ffffff52;
+.footer a {
+  color: #ffffff52;
 }
 
-  .footer-title .web {
-  color: #1b7ff2; 
+.footer-title .web {
+  color: #1b7ff2;
 }
 
-.footer-title .studio {
-  color: black; 
-  }
+q a.footer-title .studio {
+  color: rgb(255, 255, 255);
+}
 
 .header-item {
   color: #212121;
@@ -25,19 +98,19 @@
   color: #1b7ff2;
 }
 .WebStudio .studio {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .footer {
-      background-color: #2f2f2f;
+  background-color: #2f303a;
   color: #ffffff;
 }
 .footer h2 {
   color: #027be4;
 }
-.hero-more:active {
-  background-color: #2580ff;
+.hero-more:hover {
+  background-color: #2196f3;
 }
- 
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -46,88 +119,85 @@ body {
   color: #212121;
 }
 .header-page:hover {
-color: #2580ff;
+  color: #2580ff;
 }
-
 
 /*Roboto Regular*/
 
 .footer-text {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 171%;
-letter-spacing: 0.03em;
-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #fff;
 }
 
 .footer-page {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 171%;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .hero-text {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 187%;
-letter-spacing: 0.03em;
-color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /*Roboto Medium*/
 .hero-item {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 162%;
-letter-spacing: 0.03em;
-text-align: center;
-color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
 }
 
 .header-item {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 14px;
-letter-spacing: 0.02em;
-color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 
 .header-page {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 14px;
-letter-spacing: 0.02em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
 }
 
-
-
-/*Roboto Bold*/ 
+/*Roboto Bold*/
 .hero-subtitle {
-font-family: "Roboto", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 200%;
-letter-spacing: 0.06em;
-color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
 
 /*Roboto Black*/
 .WebStudio {
- font-family: "Roboto", sans-serif;
-font-weight: 700;
-font-size: 26px;
-letter-spacing: 0.03em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
 }
 .footer-title {
   font-family: "Roboto", sans-serif;
-font-weight: 700;
-font-size: 26px;
-letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
 }
 
 .header-page {
