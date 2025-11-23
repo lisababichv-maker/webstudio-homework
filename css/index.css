@@ -46,6 +46,10 @@
   height: 50px;
 }
 
+.rules-text {
+  margin-top: 10px;
+}
+
 .rules-list {
   display: flex;
   flex-direction: row;
