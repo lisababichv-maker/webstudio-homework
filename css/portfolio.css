@@ -53,11 +53,20 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  text-align: left;
   gap: 30px;
   margin-top: 50px;
   margin-bottom: 96px;
   margin-left: 215px;
   margin-right: 215px;
+}
+
+.hero-subtitle,
+.hero-text {
+  margin-left: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px
+  gap: 4px
 }
 
 .footer .container {
@@ -189,7 +198,7 @@ color: #757575;
   font-size: 16px;
   line-height: 162%;
   letter-spacing: 0.03em;
-  text-align: center;
+  text-align: left;
   color: #212121;
 }
 
