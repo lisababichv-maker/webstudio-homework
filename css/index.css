@@ -67,15 +67,15 @@ margin-right: auto;
 }
 
 .rules-item:nth-child(2)::before {
-  background-image: url("../images/astronaut.png");
+  background-image: url("../images/clock.png")
 }
 
 .rules-item:nth-child(3)::before {
-  background-image: url("../images/clock.png");
+  background-image: url("../images/diagram.png");
 }
 
 .rules-item:nth-child(4)::before {
-  background-image: url("../images/diagram.png");
+  background-image: url("../images/astronaut.png");
 }
 
 .rules-item::before {
