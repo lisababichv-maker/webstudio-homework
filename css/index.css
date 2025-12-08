@@ -62,6 +62,35 @@ margin-right: auto;
   gap: 30px;
 }
 
+.rules-item:nth-child(1)::before {
+  background-image: url("../images/antenna.png");
+}
+
+.rules-item:nth-child(2)::before {
+  background-image: url("../images/astronaut.png");
+}
+
+.rules-item:nth-child(3)::before {
+  background-image: url("../images/clock.png");
+}
+
+.rules-item:nth-child(4)::before {
+  background-image: url("../images/diagram.png");
+}
+
+.rules-item::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px 70px;
+}
+
 .work-title {
   text-align: center;
 
@@ -127,12 +156,13 @@ margin-right: auto;
   color: #ffffff;
 }
 
-.footer-title .studio {
-  color: black;
+
+.footer-web {
+  color: #1b7ff2;
 }
 
-.footer h2 {
-  color: #ffffff52;
+.footer-studio {
+  color: white;
 }
 
 .footer a:hover {
@@ -158,6 +188,41 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
+.team-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.team-item {
+  width: 270px;
+  background: #ffffff;
+  text-align: center;
+  padding-bottom: 30px;
+  border-radius: 4px;         
+}
+
+.team-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.team-subtitle {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.team-text {
+  margin: 0;
+  color: #757575;
+  font-size: 16px;
+}
+
 
 .team-text {
   font-family: "Roboto", sans-serif;

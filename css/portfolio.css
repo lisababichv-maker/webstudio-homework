@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
   gap: 50px;
-  margin-left: 334px;
+  margin-left: 344px;
   margin-right: 215px;
   margin-left: auto;
 }
@@ -115,9 +115,6 @@
 .footer {
   background-color: #2f303a;
   color: #ffffff;
-}
-.footer h2 {
-  color: #027be4;
 }
 
 .footer-title .web {
