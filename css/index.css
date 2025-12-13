@@ -44,6 +44,10 @@ margin-right: auto;
   text-align: center;
 }
 
+.about {
+  background-image: url("../images/about.jpg");
+}
+
 .about-more {
   margin-top: 30px;
   border-radius: 4px;
@@ -136,10 +140,6 @@ margin-right: auto;
 
 /*дізайни*/
 
-.header-page:hover {
-  color: #1b7ff2;
-}
-
 .web {
   color: #1b7ff2;
   padding-top: 24px;
@@ -149,6 +149,14 @@ margin-right: auto;
   color: black;
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+.header-page:hover {
+  color: #1b7ff2;
+}
+
+.header-contacts:hover {
+  color: #1b7ff2;
 }
 
 .about-more {

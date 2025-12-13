@@ -29,7 +29,7 @@
   gap: 50px;
   margin-left: 344px;
   margin-right: 215px;
-  margin-left: auto;
+  white-space: nowrap;
 }
 .buttons {
   display: flex;
@@ -101,6 +101,10 @@
 }
 .header-page:hover {
   color: #2580ff;
+}
+
+.header-contacts:hover {
+  color: #1b7ff2;
 }
 
 .buttons button {
