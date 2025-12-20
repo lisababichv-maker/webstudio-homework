@@ -116,9 +116,14 @@
   linear-gradient(180deg, #9fcff7 0%, #2f303a 100%);
 }
 
+.buttons .hero-item {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
 .hero-item:hover {
   background-color: #ffffff;
-  box-shadow: 
+  box-shadow:
     1px 5px 6px rgba(77, 76, 76, 0.862),
      1px 5px 6px rgba(77, 76, 76, 0.862),
     1px 5px 6px rgba(77, 76, 76, 0.862);
