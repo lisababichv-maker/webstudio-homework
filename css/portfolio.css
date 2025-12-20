@@ -111,10 +111,29 @@
   background-color: #f5f4fa;
 }
 
+.hero {
+  background-image:
+  linear-gradient(180deg, #9fcff7 0%, #2f303a 100%);
+}
+
+.hero-item:hover {
+  background-color: #ffffff;
+  box-shadow: 
+    1px 5px 6px rgba(77, 76, 76, 0.862),
+     1px 5px 6px rgba(77, 76, 76, 0.862),
+    1px 5px 6px rgba(77, 76, 76, 0.862);
+}
+
+
 .hero-more:hover {
   color: #ffffff;
   background-color: #2196f3;
 }
+
+.hero-item {
+  background-color: #ffffff; /
+}
+
 
 .footer {
   background-color: #2f303a;
