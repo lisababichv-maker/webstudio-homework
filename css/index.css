@@ -45,8 +45,15 @@ margin-right: auto;
 }
 
 .about {
-  background-image: url("../images/about.jpg");
+  background-image:
+    linear-gradient(
+      to left bottom,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url("../images/about.jpg");
 }
+
 
 .about-more {
   margin-top: 30px;
@@ -125,23 +132,21 @@ margin-right: auto;
   margin-right: 62px;
 }
 
-.footer .container {
-  gap: 9px;
-}
-
-.footer-title {
-  margin-bottom: 20px;
+.footer-text {
+margin-top: 20px;
 }
 
 .footer-page {
   display: flex;
   flex-direction: column;
+  gap: 9px;
+  margin-top: 9px;
 }
 
 /*дізайни*/
 
 .web {
-  color: #1b7ff2;
+  color: #2196F3;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -149,6 +154,10 @@ margin-right: auto;
   color: black;
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+.footer-title .studio {
+  color: white;
 }
 
 .header-page:hover {
@@ -326,6 +335,14 @@ color: #757575;
 }
 
 /*Raleway Bold*/
+
+.WebStudio{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+
 
 .footer-title {
   font-family: "Raleway", sans-serif;

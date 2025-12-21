@@ -27,10 +27,10 @@
   display: flex;
   align-items: center;
   gap: 50px;
-  margin-left: 344px;
-  margin-right: 215px;
-  white-space: nowrap;
+  margin-left: auto;
 }
+
+
 .buttons {
   display: flex;
   flex-direction: row;
@@ -70,26 +70,24 @@
   margin-bottom: 20px
 }
 
-.footer .container {
-  gap: 9px;
-}
-
-.footer-title {
-  margin-bottom: 20px;
+.footer-text {
+margin-top: 20px;
 }
 
 .footer-page {
   display: flex;
   flex-direction: column;
+  gap: 9px;
+  margin-top: 9px;
 }
 
 /*designs*/
 
 .WebStudio .web {
-  color: #1b7ff2;
+  color: #2196F3;
 }
 .WebStudio .studio {
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .header-item {
@@ -109,11 +107,6 @@
 
 .buttons button {
   background-color: #f5f4fa;
-}
-
-.hero {
-  background-image:
-  linear-gradient(180deg, #9fcff7 0%, #2f303a 100%);
 }
 
 .buttons .hero-item {
@@ -146,11 +139,11 @@
 }
 
 .footer-title .web {
-  color: #1b7ff2;
+  color: #2196F3;
 }
 
-a.footer-title .studio {
-  color: rgb(255, 255, 255);
+.footer-title .studio {
+  color: white;
 }
 
 .footer a {
@@ -237,9 +230,17 @@ color: #757575;
   color: #212121;
 }
 
-/*Roboto Black*/
-.WebStudio {
-  font-family: "Roboto", sans-serif;
+/*Raleway Bold*/
+
+.WebStudio{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+
+.footer-title {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
@@ -247,13 +248,6 @@ color: #757575;
 
 .header-page {
   font-style: normal;
-}
-
-.footer-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
 }
 
 .footer-page {
