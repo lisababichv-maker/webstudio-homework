@@ -25,10 +25,23 @@
 
 .header-adress {
   display: flex;
+   gap: 10px;
   align-items: center;
-  gap: 50px;
   margin-left: auto;
 }
+
+.header-adress .header-icon {
+  fill: #757575;
+  width: 16px;
+  height: 12px;
+}
+
+.header-adress .header-icon:nth-of-type(2) {
+  margin-left: 30px;
+  width: 10px;
+  height: 16px;
+}
+
 
 .about-title {
   width: 696px;
@@ -131,8 +144,24 @@ margin-right: auto;
   margin-right: 62px;
 }
 
+.team-icon {
+  gap: 50px;
+  width: 20px;
+  height: 20px;
+}
+
+.customers-list{
+  display: flex;
+  justify-content: center;
+}
+
 .footer-text {
 margin-top: 20px;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .footer-page {
@@ -159,10 +188,11 @@ margin-top: 20px;
   color: white;
 }
 
-.header-page:hover {
+.header-page, 
+.header-icon:hover {
   color: #1b7ff2;
+  fill: #1b7ff2;
 }
-
 .header-contacts:hover {
   color: #1b7ff2;
 }
