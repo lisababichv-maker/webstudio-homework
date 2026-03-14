@@ -136,6 +136,28 @@
   margin-top: 10px;
 }
 
+.rules-item {
+  position: relative;
+}
+
+.rules-item {
+  width: 270px;
+  position: relative;
+}
+
+.rules-item::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px 70px;
+}
+
 /* work */
 .work {
   padding-top: 94px;
@@ -153,6 +175,35 @@
   margin-top: 50px;
   margin-bottom: 0;
   gap: 30px;
+}
+
+.work-item {
+  position: relative;
+}
+
+.work-item::after {
+  content: "ДЕСКТОПНІ ДОДАТКИ";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 27px 0;
+
+  background: rgba(47, 48, 58, 0.8);
+
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.work-item:nth-child(2)::after {
+  content: "МОБІЛЬНІ ДОДАТКИ";
+}
+
+.work-item:nth-child(3)::after {
+  content: "ДИЗАЙНЕРСЬКІ РІШЕННЯ";
 }
 
 /* team */
@@ -265,8 +316,6 @@
 }
 
 /* footer */
-
-/* footer */
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -279,7 +328,6 @@
   gap: 70px;
 }
 
-/* левая часть */
 .footer-left {
   display: flex;
   flex-direction: column;

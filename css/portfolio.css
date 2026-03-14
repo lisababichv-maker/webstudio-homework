@@ -30,6 +30,27 @@
   margin-left: auto;
 }
 
+.header-adress {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-adress .header-icon {
+  fill: #757575;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.header-adress .header-icon:nth-of-type(2) {
+  width: 10px;
+  height: 16px;
+  margin-left: 0;
+}
+
 
 .buttons {
   display: flex;
@@ -70,16 +91,82 @@
   margin-bottom: 20px
 }
 
-.footer-text {
-margin-top: 20px;
+/* footer */
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.footer-page {
+.footer .container {
+  display: flex;
+  align-items: flex-start;
+  gap: 70px;
+}
+
+/* левая часть */
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+
+.footer-text {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.footer-address {
+  margin-top: 9px;
   display: flex;
   flex-direction: column;
   gap: 9px;
-  margin-top: 9px;
 }
+
+.footer-page {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255,255,255,0.6);
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.1);
+}
+
+.footer-icon:hover {
+  background-color: #2196f3;
+}
+
 
 /*designs*/
 
@@ -89,6 +176,13 @@ margin-top: 20px;
 .WebStudio .studio {
   color: black;
 }
+
+.header-contacts:hover,
+.header-icon:hover {
+  color: #1b7ff2;
+  fill: #1b7ff2;
+}
+
 
 .header-item {
   color: #212121;

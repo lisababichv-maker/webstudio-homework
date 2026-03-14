@@ -22,7 +22,6 @@
     />
   </head>
   <body>
-    <!-- header-->
     <header class="header">
       <div class="container">
           <a class="WebStudio" href="./index.html">
@@ -41,11 +40,19 @@
             </li>
           </ul>
         </nav>
-        <address class="header-adress">
-          <a class="header-contacts" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="header-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+     <address class="header-adress">
+          <a class="header-contacts" href="mailto:info@devstudio.com">
+              <svg class="header-icon">
+            <use href="./images/symbol-defs.svg#gmail"></use>
+          </svg>
+            info@devstudio.com
+          </a>
+          <a class="header-contacts" href="tel:+380961111111">
+              <svg class="header-icon">
+            <use href="./images/symbol-defs.svg#smartphone"></use>
+          </svg>
+            +38 096 111 11 11
+          </a>
         </address>
       </div>
     </header>
@@ -162,18 +169,36 @@
     </main>
     <!--footer-->
     <footer class="footer">
-      <div class="container">
-        <a class="footer-title" href="./index.html">
-          <span class="web">Web</span><span class="studio">Studio</span>
-        </a>
-        <p class="footer-text">м. Київ, пр-т Лесі Українки, 26</p>
-        <address class="footer-address">
-          <a class="footer-page" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="footer-page" href="tel:+380961111111">+38 096 111 11 11</a>
-        </address>
+  <div class="container">
+    <div class="footer-left">
+      <a class="footer-title" href="./index.html">
+        <span class="web">Web</span><span class="studio">Studio</span>
+      </a>
+      <p class="footer-text">м. Київ, пр-т Лесі Українки, 26</p>
+      <address class="footer-address">
+        <a class="footer-page" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="footer-page" href="tel:+380961111111">+38 096 111 11 11</a>
+      </address>
+    </div>
+
+    <div class="footer-social">
+      <p class="footer-join">ПРИЄДНУЙТЕСЬ</p>
+      <div class="footer-icons">
+        <svg class="footer-icon">
+          <use href="./images/symbol-defs.svg#instagram"></use>
+        </svg>
+        <svg class="footer-icon">
+          <use href="./images/symbol-defs.svg#twitter"></use>
+        </svg>
+        <svg class="footer-icon">
+          <use href="./images/symbol-defs.svg#facebook"></use>
+        </svg>
+        <svg class="footer-icon">
+          <use href="./images/symbol-defs.svg#linkedin"></use>
+        </svg>
       </div>
-    </footer>
+    </div>
+  </div>
+</footer>
   </body>
 </html>
