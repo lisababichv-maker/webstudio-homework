@@ -1,0 +1,104 @@
+.hero-more {
+  display: block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+   font-weight: 400;
+  font-size: 16px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.hero-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 96px;
+}
+
+.hero-subtitle,
+.hero-text {
+  margin-left: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+.hero {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.hero-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #212121;
+}
+
+.hero-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.hero-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.hero-more:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.hero-item {
+  background-color: #ffffff;
+}
+
+
+.buttons button {
+  background-color: #f5f4fa;
+}
+
+.buttons .hero-item {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.hero-item:hover {
+  background-color: #ffffff;
+    box-shadow:
+    1px 5px 6px rgba(217, 213, 213, 0.862),
+     1px 5px 6px rgba(212, 208, 208, 0.862),
+    1px 5px 6px rgba(178, 177, 177, 0.862);
+}
+
+
+.hero-more:hover {
+  color: #ffffff;
+  animation: rubberBand 0.8s;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}

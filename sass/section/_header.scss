@@ -1,0 +1,89 @@
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 93px;
+  gap: 50px;
+}
+
+.header-adress {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-adress .header-icon {
+  fill: #757575;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
+.header-contacts[href^="mailto"] .header-icon {
+  width: 16px;
+  height: 12px;
+}
+
+.header-contacts[href^="tel"] .header-icon {
+  width: 10px;
+  height: 16px;
+}
+
+.header-page:hover {
+  color: #1b7ff2;
+}
+
+.header-contacts:hover,
+.header-icon:hover {
+  color: #1b7ff2;
+  fill: #1b7ff2;
+}
+
+.web {
+  color: #2196f3;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.studio {
+  color: black;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.WebStudio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+
+.header-page {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-contacts {
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}

@@ -1,0 +1,82 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image:
+    url("../images/about.jpg");
+  padding-top: 200px;
+  padding-bottom: 200px;
+    position: relative;
+}
+
+.about-title {
+  background-image: url("https://i.pinimg.com/originals/87/76/ee/8776eefe1b715f5a83280cfba0a8f4b8.gif");
+  background-clip: text;
+  color: transparent;
+  background-size: cover;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-more {
+  margin-top: 30px;
+  width: 216px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #1b7ff2;
+  color: #ffffff;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+ background-color: red;
+  background-size: 300% 300%;
+  animation-name: gradient;
+  animation-duration: 8s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.about .container {
+  position: relative;
+}
+
+@keyframes gradient {
+  0% {
+    background-image: linear-gradient( yellow,purple,cyan);
+  }
+  25% {
+    background-image: linear-gradient( red,blue,green);
+  }
+  50% {
+    background-image: linear-gradient( red,blue,green);
+  }
+  75% {
+    background-image: linear-gradient( red,blue,green);
+  }
+  100% {
+    background-image: linear-gradient( red,blue,green);
+  }
+}
+
+
+.about-more {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+.customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.customers-title {
+  margin-bottom: 50px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.customers-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.customers-item:hover {
+  border-color: #2196f3;
+}
+
+.customers-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+
+.customers-item:hover .customers-icon {
+  fill: #2196f3;
+}
+
+.customers-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
