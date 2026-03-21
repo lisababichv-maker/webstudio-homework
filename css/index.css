@@ -37,16 +37,19 @@
 
 .header-adress .header-icon {
   fill: #757575;
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
   vertical-align: middle;
 }
 
-.header-adress .header-icon:nth-of-type(2) {
+
+.header-contacts[href^="mailto"] .header-icon {
+  width: 16px;
+  height: 12px;
+}
+
+.header-contacts[href^="tel"] .header-icon {
   width: 10px;
   height: 16px;
-  margin-left: 0;
 }
 
 /* about */
@@ -55,26 +58,30 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #2f303a;
   background-image:
-    linear-gradient(
-      to left bottom,
-      rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
-    ),
     url("../images/about.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
+    position: relative;
 }
 
 .about-title {
+  background-image: url("https://i.pinimg.com/originals/87/76/ee/8776eefe1b715f5a83280cfba0a8f4b8.gif");
+  background-clip: text;
+  color: transparent;
+  background-size: cover;
   width: 696px;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
 }
+
 
 .about-more {
   margin-top: 30px;
@@ -86,6 +93,42 @@
   background-color: #1b7ff2;
   color: #ffffff;
 }
+
+.about::before {
+  content: "";
+  position: absolute;
+ background-color: red;
+  background-size: 300% 300%;
+  animation-name: gradient;
+  animation-duration: 8s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.about .container {
+  position: relative;
+}
+
+@keyframes gradient {
+  0% {
+    background-image: linear-gradient( yellow,purple,cyan);
+  }
+  25% {
+    background-image: linear-gradient( red,blue,green);
+  }
+  50% {
+    background-image: linear-gradient( red,blue,green);
+  }
+  75% {
+    background-image: linear-gradient( red,blue,green);
+  }
+  100% {
+    background-image: linear-gradient( red,blue,green);
+  }
+}
+
+
+
 
 /* rules */
 .rules {
@@ -206,6 +249,10 @@
   content: "ДИЗАЙНЕРСЬКІ РІШЕННЯ";
 }
 
+.work-photo {
+  display: block;
+}
+
 /* team */
 .team {
   background-color: #f5f4fa;
@@ -256,21 +303,45 @@
 }
 
 /* icons team */
+.team-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-icon-item {
+  width: 40px;
+  height: 40px;
+}
+
+.team-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-link:hover,
+.team-link:focus {
+  background-color: #2196f3;
+}
+
+.team-link:hover .team-icon,
+.team-link:focus .team-icon {
+  fill: #ffffff;
+}
+
 .team-icon {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
-  margin-left: 10px;
-  margin-right: 10px;
-  vertical-align: middle;
 }
 
-.team-icon:hover {
-  fill: #ffffff;
-  background-color: #2196f3;
-  border-radius: 100%;
-  padding: 16px;
-}
 
 /* customers */
 .customers {
@@ -372,22 +443,50 @@
   margin-bottom: 20px;
 }
 
-.footer-icons {
+.footer-icon-list {
   display: flex;
+  justify-content: flex-start; 
   gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-icon-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: #2196f3;
+}
+
+.footer-link:hover .footer-icon,
+.footer-link:focus .footer-icon {
+  fill: #ffffff;
 }
 
 .footer-icon {
   width: 20px;
   height: 20px;
   fill: #ffffff;
-  padding: 12px;
-  border-radius: 50%;
-  background-color: rgba(255,255,255,0.1);
 }
 
-.footer-icon:hover {
-  background-color: #2196f3;
+/*animation */
+
+.work-item:hover {
+  animation: heartBeat 1s;
 }
 
 /*design */
@@ -417,9 +516,6 @@
   fill: #1b7ff2;
 }
 
-.footer a:hover {
-  color: #1b7ff2;
-}
 
 /* Roboto Regular */
 body {
@@ -462,6 +558,11 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-page:hover {
+  color:#2196F3;
+}
+
 
 /* Roboto Medium */
 .header-page {
@@ -533,16 +634,4 @@ body {
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-}
-
-/* Roboto Black */
-.about-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 136%;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffffff;
 }
